@@ -1,0 +1,79 @@
+.avatarBox {
+    background-color: #fec608;
+}
+
+.img-fluid {
+    margin-top: 16px;
+}
+
+.skill-bar {
+    background-color: #bdc9ea;
+    border-radius: 16px;
+}
+
+.infoBox {
+    background-color: #ffff1a;
+}
+
+.progress-bar {
+    border-radius: 16px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding: 8px 16px;
+    display: inline-block;
+    background-color: #ddd;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #8393c5;
+}
+
+.album-item {
+    width: 200px;
+    height: 200px;
+    background-image: url("img/d.jpg");
+    background-size: contain;
+}
+
+.album-item1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("img/c.jpg");
+    background-size: contain;
+}
+
+.album-item .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.album-item .overlay img {
+    transform: scale(0.8);
+    transition: all 0.3s;
+}
+
+.album-item:hover .overlay {
+    opacity: 1;
+}
+
+.album-item:hover .overlay img {
+    transform: scale(1);
+}
+
+.row-coulmn {
+    display: flex;
+    justify-content: space-around;
+}
+.tran{
+    margin: 10px;
+}

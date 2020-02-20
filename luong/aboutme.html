@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thị Lương</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/da5c22bb38.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body id="home">
+   <nav>
+    <ul class="header">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+    </ul>
+    </nav>
+   <div class="background1"></div>
+    <div class="body"  id="about">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div id="profile">
+                        <img alt="anh dai dien" src="img/anh4.jpg">    
+                        <div class="slant"></div>    
+                    </div>
+                    <div class="info">
+                       <h4 class="text-uppercase left">Name: NGUYỄN THỊ LƯƠNG</h4>
+                       <h6 class="text-capitalize left">CLASS: 57K3-CNTT</h6>
+                       <h6 class="text-capitalize left">MSSV: 165TDV200480</h6>
+                    </div>
+                    <div class="infobody">
+                        <ul class="info-list">
+                           <li><i class="fa fa-birthday-cake"> 04/05/1998</i></li>
+                           <li><i class="fas fa-envelope-square"> nguyenthiluong265@gmail.com</i></li>  
+                           <li><i class="fab fa-facebook-f"> Heo Mọi</i></li>
+                           <li><i class="fas fa-phone-square-alt"> 0389851953</i></li>  
+                           <li><i class="fas fa-map-marker-alt"> Nghệ An</i></li>  
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="education">
+        <h4 class="edu">
+            EDUCATION
+       </h4>
+    <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline">
+                    <div class="timeline">
+                        <div href="#" class="timeline-content">
+                        <div class="timeline-icon">P</div>
+                        <h3>PRIMARY SCHOOL</h3>
+                        <p>2004-2009: Hong Thanh Primary School</p>
+                        </div>
+                    </div>
+                    <div class="timeline1">
+                        <div href="#" class="timeline-content">
+                        <div class="timeline-icon">J</div>
+                        <h3>JUNIOR HIGH SCHOOL</h3>
+                        <p>2009-2013: Phu Hong Junior High School</p>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div href="#" class="timeline-content">
+                        <div id="icon-2" class="timeline-icon">H</div>
+                        <h3>HIGH SCHOOL</h3>
+                        <p>2013-2016: Phan Dang Luu High School</p>
+                        </div>
+                    </div>
+                    <div class="timeline1">
+                        <div href="#" class="timeline-content">
+                        <div class="timeline-icon">U</div>
+                        <h3>UNIVERSITY</h3>
+                        <p>2016-2021: Vinh University</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill" id="skills">
+        <h4>SKILLS</h4>
+        <p>Powpoint: </p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+            </div>
+        <p>English: </p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">40%</div>
+            </div>
+        <p>Photoshop: </p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">55%</div>
+            </div>
+        <p>HTML,CSS: </p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">30%</div>
+            </div>
+    </div>
+    <div class="interest" id="interests">
+        <div class="container">
+            <div class="row">
+              <h4>INTERESTS</h4>
+                <div class="col-md-3 music">
+                    <p>Music</p>
+                </div>
+                <div class="col-md-3 game">
+                    <p>Play Game</p>
+                </div>
+                <div class="col-md-3 book">
+                    <p>Read Book</p>
+                </div>
+                <div class="col-md-3 travel">
+                    <p>Travel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="on_top" href="#top" style="display: block;"><i class="fa fa-chevron-circle-up" ></i></a>
+    <div class="footer">
+        <div class="footer-copyright text-center py-3">Design by Lương Nguyễn
+          </div>
+    </div>
+    <script>
+       $(document).ready(function() {
+   $(window).scroll(function(event) {
+      var pos_body = $('html,body').scrollTop();
+      if(pos_body>100){
+         $('#education').addClass('fadeInUp animated slow');
+      }
+      else{
+         $('#education').removeClass('fadeInUp animated');
+      }
+       if(pos_body>900){
+         $('.interest').addClass('fadeInUp animated slow');
+      }
+      else{
+         $('.interest').removeClass('fadeInUp animated');
+      }
+
+      if(pos_body>380){
+         $('.skill').addClass('fadeInUp animated slow');
+      }
+      else{
+         $('.skill').removeClass('fadeInUp animated');
+      }
+   });
+});
+
+    </script>
+</body>
+</html>

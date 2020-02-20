@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background: url(img/it.jpg);
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
+.background h1{
+    text-align: center;
+    padding-top: 28vh;
+    color:#fd0a0a;
+    font-size: 50px;
+    margin: 0;
+}
+.a{
+    background-color: rgb(195, 248, 188);
+}
+.row{
+    height: 400px;
+    margin: 30px auto;
+}
+.infor{
+    font-size: 40px;
+}
+.infor h1{
+    text-align: center;
+    color: rgb(9, 129, 29);
+}
+
+.infor a{
+    font-size: 20px;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 40vh;
+    margin-left: 10vh;
+    background-color: rgb(244, 255, 205);
+    padding: 10px;
+    color: black;
+    font-weight: 300;
+    border-radius: 10px 10px 10px 10px;
+}
+.infor h6{
+    font-size: 15px;
+}
+.col-md-4{
+    padding: 0;
+    margin: 0;
+    width: 360px;
+}
+.loc{
+    background-image: url(img/loc.jpg);
+    height: 100%;
+    margin-right: 30px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.luong{
+    background-image: url(img/luong.jpg);
+    height: 100%;
+    margin-right: 30px;
+}
+.lan{
+    background-image: url(img/lan.jpg);
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.info .row{
+    height: 400px;
+    margin: 30px auto;
+    margin-left: 190px;
+}
+.col-md-6{
+    padding: 0;
+    margin: 0;
+    width: 360px;
+}
+.me{
+    background-image: url(img/anh2.jpg);
+    height: 100%;
+    margin-right: 30px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.luong1{
+    background-image: url(img/anh1.jpg);
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

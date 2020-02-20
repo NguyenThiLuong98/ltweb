@@ -1,0 +1,92 @@
+.tong {
+	width: 100%;
+	height: 1000px;
+}
+.anh-1{
+	width: 50%;
+	height: 1000px;
+	background: #168dc7;
+	float: left;
+}
+.anh-2{
+	width: 50%;
+	height: 1000px;
+	background: #eeede9;
+	float: left;
+}
+.anh-1 img{
+	width: 40%;
+	height: 300px;
+	margin-left: 30%;
+	margin-top: 10px;
+}
+.anh-1 h1{
+	text-align: center;
+	color: #e2f4fd;
+}
+.hocvan {
+	width: 50%;
+	height: 50px;
+	margin-left: 5%;
+	margin-top: 50px;
+}
+.hocvan-1 {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.hocvan-2 {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.hocvan-1 img{
+	margin-top: 10px;
+	width: 70px;
+	height: 50px;
+}
+.hocvan-2 h1{
+	
+	color: #488ba1;
+}
+.truong {
+	margin-left: 10%;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+}
+.sothich {
+	width: 70%;
+	height: 400px;
+	
+}
+.sothich-1{
+	width: 80%;
+	height: 70px;
+	margin-top: 20px;
+}
+.sothich-2{
+	width: 80%;
+	height: 300px;
+	margin-top: 20px;
+	text-align: center;
+}
+.sothich-1-1 {
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.sothich-1-1 img{
+	width: 90%;
+	height: 100%;
+	margin-left: 10px;
+	
+}
+.sothich-1-2{
+	float: left;
+	width: 65%;
+	height: 100%;
+}
+.sothich-1-2 h1{
+	color: #488ba1;
+}

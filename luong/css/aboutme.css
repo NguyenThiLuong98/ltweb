@@ -1,0 +1,280 @@
+/* ------Heder--------------------- */
+.background1{
+    background: url('../img/anh8.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(230, 243, 245);
+    position: fixed;
+    top:0;
+    align-items: center;
+    min-height: 8vh;
+    z-index: 200;
+    display: flex;
+}
+ .header{
+    top: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header li{
+    list-style: none;
+    padding-left: 5 0px;
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    text-align: center;
+}
+/* -----------on top----------- */
+a.on_top{
+    display: none;
+    opacity: 0.9;
+    
+}
+a.on_top:hover{
+    opacity: 1;
+    color:  rgb(21, 71, 66);
+
+}
+a.on_top i {
+    font-size: 45px;
+}
+a.on_top{
+    color: rgb(241, 9, 9);
+    border-radius: 6px;
+    padding: 40px 10px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    height: 30px;
+}
+/* -------------CARD-------------- */
+.card{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 350px;
+    background:  rgb(181, 245, 117);
+    margin: -40px 3px 0 0;
+}
+.card #profile{
+    right: 0;
+    z-index: 1;
+    position: absolute;
+}
+.card #profile img{
+    width: 350px;
+    height: 350px;
+}
+.slant{
+    top:0;
+    z-index: 1;
+    position: absolute;
+    border-style: solid;
+    border-width: 350px 0 0 100px;
+    border-color: rgb(223,50,50,0) transparent transparent  rgb(181, 245, 117);
+}
+.card .info{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+   
+}
+.info h4{
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    font-size: 2.18rem;
+
+}
+ .info h6{ 
+     font-size: 20px;
+     font-family: "Font Awesome 5 Brands";
+     font-weight: 900;
+ }
+.card .infobody{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    margin-top: 130px;
+    text-align: left;
+}
+.info-list{
+    font-size: 20px;
+}
+.infobody .info-list {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 200;
+ }
+.body{
+    background-color: rgb(240, 196, 146);
+}
+.infobody .info-list .fab{
+   font-weight: 900;
+}
+
+/* -----------EDUCATION------------ */
+.edu{
+    color:  rgb(245, 69, 4);
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+
+.main-timeline{
+    position: relative;
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 0 40px 0 0;
+    margin: 0 50px 0 0;
+    float: left;
+    z-index: 1;
+    position: relative;
+}
+.main-timeline .timeline-content{
+    min-height: 140px;
+    font-size: 20px;
+    background-color:#e3f1f1;
+    padding: 20px 60px 20px 60px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:0 0 15px -5px #adadad;
+    display: block;
+}
+.main-timeline .timeline-icon{
+    color: white;
+    background-color: #0652DD;
+    text-align: center;
+    font-size: 40px;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px 10px 10px 10px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    z-index: 1;
+}
+.main-timeline .timeline1{
+    padding: 0 0 0 40px;
+    margin: 0 0 0 50px;
+    float: right;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.main-timeline .timeline1 .timeline-icon{
+    background-color: tomato;
+    right: auto;
+    left: -20px;
+}
+.main-timeline .timeline1 .timeline-content{
+    padding: 20px 20px 20px 60px;
+}
+.main-timeline .timeline .timeline-icon #icon-2{
+    background-color: yellow;
+}
+/* -----------SKILLS--------------- */
+.skill{
+    background-color: rgb(181, 245, 117);
+    padding: 40px;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+}
+.skill h4{
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(245, 69, 4);
+}
+.skill .progress {
+    height: 10px;
+}
+.skill .progress .progress-bar{
+    line-height: 10px;
+    background-color: cyan;
+    color: black;
+}
+/* -------------interest------- */
+
+.interest .container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.interest h4{
+    color:  rgb(245, 69, 4);
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.interest p{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.interest .music{
+    border-right: 4px white double;
+    height: 270px;
+    background: url('../img/anh2.jpg');
+}
+.interest .game{
+    border-right: 4px white double;
+    height: 270px;
+    background: url('../img/anh3.jpg');
+}
+.interest .book{
+    background: url('../img/anh5.jpg');
+    height: 270px;
+    border-right: 4px white double;
+}
+.interest .travel{
+    background: url('../img/anh7.jpg');
+    height: 270px;
+}
+/* -------footer------------- */
+.footer{
+    background-color: rgb(171, 182, 181);
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    display: block;
+}
